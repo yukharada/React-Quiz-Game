@@ -1,76 +1,8 @@
-# 🎯 React クイズアプリ
+# React + Vite
 
-> **React を使ったシンプルかつ洗練されたクイズアプリケーション**  
-> 学習用途でありながら、保守性・可読性・ユーザー体験を重視した構成になっています。
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
-## 📌 概要
-
-このアプリは **3ページ構成のクイズアプリ** です。  
-React の基本（状態管理、コンポーネント分割、条件レンダリング、画面遷移）を実務的に学ぶことを目的としています。
-
-構成は以下の通りです。
-
-1. **TOPページ** – 開始ボタンからクイズへ進む入口ページ  
-2. **クイズページ** – 問題文と選択肢を表示し、正誤判定を行う  
-3. **結果ページ** – 総合結果とアニメーションを表示する
-
----
-
-## 🖼 画面構成
-
-| TOPページ | クイズページ | 結果ページ |
-|-----------|--------------|------------|
-| ![TOP](docs/images/top-page.png) | ![QUIZ](docs/images/quiz-page.png) | ![RESULT](docs/images/result-page.png) |
-
----
-
-## 🚀 機能一覧
-
-### 1. TOPページ
-- **クイズ開始ボタン**
-  - 押下でクイズページへ遷移
-
-### 2. クイズページ
-- 問題文と複数の選択肢を表示
-- 選択肢を押下すると…
-  1. 正誤判定を行い結果を記録
-  2. 次の問題へ遷移、または最終問題なら結果ページへ遷移
-
-### 3. 結果ページ
-- 表示前に **カーテンコール演出（1〜2秒）**
-- **クラッカーアニメーション**
-- 総問題数と正解数を取得し表示
-
----
-
-## 🛠 技術スタック
-
-| 分類         | 技術 |
-|--------------|------|
-| フロントエンド | React (Vite) / TypeScript |
-| 状態管理     | useState / useEffect |
-| スタイリング | CSS Modules / Tailwind CSS（任意） |
-| アニメーション | Framer Motion / CSS Animation |
-| ビルドツール | Vite |
-| バージョン管理 | Git / GitHub |
-
----
-
-## 📂 ディレクトリ構成
-
-```plaintext
-react-quiz-app/
-├── public/
-│   └── index.html
-├── src/
-│   ├── components/    # UIコンポーネント
-│   ├── pages/         # 各ページ（TOP, Quiz, Result）
-│   ├── data/          # 問題データ
-│   ├── hooks/         # カスタムフック
-│   ├── styles/        # CSS / Tailwind設定
-│   └── App.tsx
-├── docs/images/       # README用スクリーンショット
-├── package.json
-└── README.md
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
