@@ -1,26 +1,34 @@
 const quizData = [
     {
-        question: "Question 1",
-        options: ["Select 1", "Select 2", "Select 3", "Select 4"],
+        question: "『葬送のフリーレン』の主人公、フリーレンの職業は何でしょう？",
+        options: ["魔法使い", "戦士", "僧侶", "冒険者"],
         answerIndex: 0
-    }, {
-        question: "Question 2",
-        options: ["Select 1", "Select 2", "Select 3", "Select 4"],
-        answerIndex: 1
-    }, {
-        question: "Question 3",
-        options: ["Select 1", "Select 2", "Select 3", "Select 4"],
-        answerIndex: 2
-    }, {
-        question: "Question 4",
-        options: ["Select 1", "Select 2", "Select 3", "Select 4"],
-        answerIndex: 3
-    }, {
-        question: "Question 5",
-        options: ["Select 1", "Select 2", "Select 3", "Select 4"],
-        answerIndex: 1
     },
-
+    {
+        "question": "『鬼滅の刃』で、主人公・竈門炭治郎が使う水の呼吸の型で、最も最初の型は何でしょう？",
+        "options": ["壱ノ型", "弐ノ型", "参ノ型", "肆ノ型"],
+        "answerIndex": 0
+    },
+    {
+        "question": "『クレヨンしんちゃん』の主人公、野原しんのすけが通っている幼稚園の名前は何でしょう？",
+        "options": ["ふたば幼稚園", "かすかべ幼稚園", "アクション幼稚園", "ひまわり幼稚園"],
+        "answerIndex": 0
+    },
+    {
+        "question": "『葬送のフリーレン』で、フリーレンの旅の目的の一つは、勇者ヒンメルが亡くなった後、彼を偲ぶためにどこへ向かうことでしょう？",
+        "options": ["オイサースト", "クヴァール", "魂の眠る地（オーリエスト）", "デンケン"],
+        "answerIndex": 2
+    },
+    {
+        "question": "『鬼滅の刃』に登場する、鬼殺隊の最高位である9人の剣士を指す言葉は何でしょう？",
+        "options": ["柱", "十二鬼月", "鬼", "隊士"],
+        "answerIndex": 0
+    },
+    {
+        "question": "『クレヨンしんちゃん』の作中で、しんのすけの父である野原ひろしの足のにおいは「最強」と言われていますが、そのにおいの原因はなんでしょう？",
+        "options": ["納豆", "加齢臭", "足の裏の細菌", "靴下"],
+        "answerIndex": 2
+    }
 ];
 
 export default quizData;
